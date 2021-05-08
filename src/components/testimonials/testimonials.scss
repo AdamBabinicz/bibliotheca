@@ -112,7 +112,10 @@
         flex-direction: column;
         justify-content: center;
         overflow-y: hidden;
-        height: 100%;
+
+        @include mobile {
+          height: 100%;
+        }
 
         h3 {
           margin-bottom: 2px;
@@ -128,7 +131,7 @@
           @include mobile {
             font-size: 0.8rem;
             padding: 0.5rem;
-            height: 100%;
+            // height: 100%;
             overflow-y: hidden;
           }
         }
