@@ -22,7 +22,7 @@
       transform: rotateY(180deg);
 
       @include mobile {
-        left: 7px;
+        left: 0;
       }
     }
 
@@ -30,7 +30,7 @@
       right: 100px;
 
       @include mobile {
-        right: 7px;
+        right: 0;
       }
     }
   }
