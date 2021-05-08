@@ -44,6 +44,7 @@
 
       @include mobile {
         height: 180px;
+        width: 80%;
         margin: 10px 0;
       }
 
@@ -53,7 +54,7 @@
         margin: 0 30px;
 
         @include mobile {
-          width: 250px;
+          width: 80%;
           height: 180px;
           margin: 1px;
         }
@@ -67,6 +68,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+          padding: 1rem 0;
+          overflow-y: hidden;
+        }
 
         img {
           &.left,
@@ -91,11 +97,12 @@
       .center {
         padding: 10px;
         border-radius: 10px;
-        background-color: rgb(250, 244, 245);
+        background: rgb(250, 244, 245);
 
         @include mobile {
           font-size: 12px;
           padding: 5px;
+          overflow-y: hidden;
         }
       }
       .bottom {
@@ -109,12 +116,14 @@
 
           @include mobile {
             font-size: 14px;
+            overflow-y: hidden;
           }
         }
         h4 {
           color: rgb(121, 115, 115);
           @include mobile {
             font-size: 13px;
+            overflow-y: hidden;
           }
         }
       }
