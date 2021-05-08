@@ -1,7 +1,8 @@
 @import "../../global.scss";
 
 .works {
-  background-color: crimson;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url("../assets/2.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
