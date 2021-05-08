@@ -43,7 +43,7 @@
       transition: all 1s ease;
 
       @include mobile {
-        height: 180px;
+        height: 350px;
         width: 80%;
         margin: 10px 0;
       }
@@ -55,7 +55,7 @@
 
         @include mobile {
           width: 80%;
-          height: 180px;
+          height: 350px;
           margin: 1px;
         }
       }
@@ -100,6 +100,7 @@
         background: rgb(250, 244, 245);
 
         @include mobile {
+          height: auto;
           font-size: 12px;
           padding: 5px;
           overflow-y: hidden;
