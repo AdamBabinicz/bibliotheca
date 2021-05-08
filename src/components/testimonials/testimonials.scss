@@ -103,7 +103,7 @@
           height: 100%;
           font-size: 12px;
           padding: 5px;
-          // overflow-y: hidden;
+          overflow-y: hidden;
         }
       }
       .bottom {
@@ -124,6 +124,7 @@
             font-size: 1rem;
             padding: 0.7rem;
             overflow-y: hidden;
+            height: 100%;
           }
         }
         h4 {
