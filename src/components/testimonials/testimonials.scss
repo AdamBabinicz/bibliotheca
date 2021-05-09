@@ -105,11 +105,13 @@
         background: rgb(250, 244, 245);
 
         @include mobile {
-          max-height: 100%;
+          //
+          display: flex;
+          align-items: center;
           height: 180px;
           font-size: 12px;
           padding: 5px;
-          overflow-y: hidden;
+          // overflow-y: hidden;
         }
       }
       .bottom {
@@ -117,11 +119,13 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        overflow-y: hidden;
+        // overflow-y: hidden;
 
         @include mobile {
           max-height: 100%;
           height: 130px;
+          height: auto;
+          background: crimson;
         }
 
         h3 {
@@ -129,9 +133,11 @@
 
           @include mobile {
             font-size: 1rem;
-            padding: 0.7rem;
-            overflow-y: hidden;
-            max-height: 100%;
+            display: flex;
+            align-items: center;
+            // padding: 0.7rem;
+            // overflow-y: hidden;
+            // max-height: 100%;
             height: 140px;
           }
         }
@@ -139,10 +145,12 @@
           color: rgb(121, 115, 115);
           @include mobile {
             font-size: 0.8rem;
+            display: flex;
+            align-items: center;
             // padding: 0.5rem;
-            max-height: 100%;
-            height: 170px;
-            overflow-y: hidden;
+            // max-height: 100%;
+            height: 100px;
+            // overflow-y: hidden;
           }
         }
       }
