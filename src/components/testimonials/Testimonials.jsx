@@ -31,7 +31,7 @@ export default function Testimonials() {
       img: img3,
       icon: "assets/linkedin.png",
       desc:
-        "Ty drogi Internauto odziedziczyłeś najwaspanialszą spóściznę kulturową naszej cywilizacji.",
+        "Ty drogi Internauto odziedziczyłeś najwaspanialszą spuściznę kulturową naszej cywilizacji.",
     },
   ];
   return (
